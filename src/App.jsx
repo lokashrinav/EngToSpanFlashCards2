@@ -59,8 +59,8 @@ function App() {
         <Card data={firstCard} ready={flip}/>
       </div>
       <div className="fun-buttons">
-        <button onClick={LeftButton} className="leftbutton">Left</button>
-        <button onClick={RightButton} className="rightbutton">Right</button>
+        <button onClick={LeftButton} className="leftbutton">Back</button>
+        <button onClick={RightButton} className="rightbutton">Next</button>
       </div>
     </div>
   )
