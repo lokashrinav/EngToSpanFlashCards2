@@ -1,20 +1,20 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - English to Spanish Studying
 
-Submitted by: **Your Name Here**
+Submitted by: Shrinav Loka
 
 This web app: **insert description**
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [ ] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [ ] **A list of card pairs is created**
-- [ ] **Clicking on the card shows the corresponding component of the information pair**
-- [ ] **Clicking the next button displays a random new card**
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:
 
@@ -45,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2023 Shrinav Loka
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
