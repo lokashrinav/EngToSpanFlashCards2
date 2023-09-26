@@ -10,6 +10,10 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
+body {
+  background-color: yellow;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
