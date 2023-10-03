@@ -49,6 +49,16 @@ function App() {
     setFirstCard(dict[firstCard])
   }
 
+  function guessAnswer() {
+      let x = document.getElementById('textbox_id').value
+      if(x != dict[arr[count]]) {
+        document.getElementById('textbox_id').setAttribute("class","three")
+      }
+      else{
+        document.getElementById('textbox_id').setAttribute("class","four")
+      }
+  }
+
   return (
 
     <div className='full'>
@@ -58,6 +68,11 @@ function App() {
       <div className="funny">
         <Card data={firstCard} ready={flip}/>
       </div>
+      <div>
+        <input type="text" id='textbox_id'/>
+        <input type="submit" onClick={guessAnswer}/>
+      </div>
+      <div id="idk"></div>
       <div className="fun-buttons">
         <button onClick={LeftButton} className="leftbutton">Back</button>
         <button onClick={RightButton} className="rightbutton">Next</button>
